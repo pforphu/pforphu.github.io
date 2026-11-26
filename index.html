@@ -83,58 +83,12 @@
 
 				<!-- Wrapper -->
 <style>
+    /* Tự động đảo chiều ở các section chẵn trên máy tính (Project 2, Project 4...) */
     #wrapper > section.spotlight:nth-of-type(even) .inner {
-        flex-direction: row-reverse;
+        flex-direction: row-reverse !important;
     }
 
-    @media screen and (max-width: 736px) {
-        #wrapper > section.spotlight .inner,
-        #wrapper > section.spotlight:nth-of-type(even) .inner {
-            flex-direction: column;
-            gap: 2rem !important;
-        }
-        #wrapper > section.spotlight .image {
-            flex: 0 0 auto !important;
-            width: 100%;
-        }
-    }
-</style>
-
-<!-- Project 1 (Mặc định: Hình TRÁI - Chữ PHẢI) -->
-<style>
-    /* Tự động đảo chiều ở các section chẵn (Project 2, Project 4...) */
-    #wrapper > section.spotlight:nth-of-type(even) .inner {
-        flex-direction: row-reverse;
-    }
-
-    /* Bo tròn góc đồng đều cho ảnh dự án */
-    #wrapper > section.spotlight .image img {
-        border-radius: 12px;
-        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
-    }
-
-    /* Trên màn hình nhỏ (mobile), xếp dọc lại cho dễ nhìn */
-    @media screen and (max-width: 736px) {
-        #wrapper > section.spotlight .inner,
-        #wrapper > section.spotlight:nth-of-type(even) .inner {
-            flex-direction: column;
-            gap: 2rem !important;
-        }
-        #wrapper > section.spotlight .image {
-            flex: 0 0 auto !important;
-            width: 100%;
-        }
-    }
-</style>
-
-<!-- Project 1 (Mặc định: Hình TRÁI - Chữ PHẢI) -->
-<style>
-    /* Tự động đảo chiều ở các section chẵn (Project 2, Project 4...) */
-    #wrapper > section.spotlight:nth-of-type(even) .inner {
-        flex-direction: row-reverse;
-    }
-
-    /* Ép bo tròn góc cho cả khung ảnh và thẻ img */
+    /* Bo tròn góc cho cả khung ảnh và thẻ img */
     #wrapper > section.spotlight .image {
         border-radius: 14px !important;
         overflow: hidden !important;
@@ -145,16 +99,25 @@
         border-radius: 14px !important;
     }
 
-    /* Trên màn hình nhỏ (mobile), xếp dọc lại cho dễ nhìn */
-    @media screen and (max-width: 736px) {
+    /* Trên tablet & điện thoại (<= 980px): xếp dọc Hình TRÊN - Chữ DƯỚI, mở rộng hết chiều ngang */
+    @media screen and (max-width: 980px) {
         #wrapper > section.spotlight .inner,
         #wrapper > section.spotlight:nth-of-type(even) .inner {
-            flex-direction: column;
-            gap: 2rem !important;
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 1.75rem !important;
         }
+
         #wrapper > section.spotlight .image {
             flex: 0 0 auto !important;
-            width: 100%;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        #wrapper > section.spotlight .content {
+            width: 100% !important;
+            max-width: 100% !important;
+            text-align: left !important;
         }
     }
 </style>
