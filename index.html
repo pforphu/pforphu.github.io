@@ -83,12 +83,12 @@
 
 				<!-- Wrapper -->
 <style>
-    /* Tự động đảo chiều ở các section chẵn trên máy tính (Project 2, Project 4...) */
+    /* Đảo chiều ở các section chẵn trên desktop (Project 2, Project 4...) */
     #wrapper > section.spotlight:nth-of-type(even) .inner {
         flex-direction: row-reverse !important;
     }
 
-    /* Bo tròn góc cho cả khung ảnh và thẻ img */
+    /* Bo tròn góc đồng đều cho khung ảnh và ảnh */
     #wrapper > section.spotlight .image {
         border-radius: 14px !important;
         overflow: hidden !important;
@@ -99,25 +99,54 @@
         border-radius: 14px !important;
     }
 
-    /* Trên tablet & điện thoại (<= 980px): xếp dọc Hình TRÊN - Chữ DƯỚI, mở rộng hết chiều ngang */
+    /* Mobile & Tablet (<= 980px): ép layout dọc và mở rộng hết chiều ngang */
     @media screen and (max-width: 980px) {
         #wrapper > section.spotlight .inner,
         #wrapper > section.spotlight:nth-of-type(even) .inner {
+            display: flex !important;
             flex-direction: column !important;
             align-items: stretch !important;
-            gap: 1.75rem !important;
-        }
-
-        #wrapper > section.spotlight .image {
-            flex: 0 0 auto !important;
             width: 100% !important;
             max-width: 100% !important;
+            gap: 1.5rem !important;
         }
 
-        #wrapper > section.spotlight .content {
+        #wrapper > section.spotlight .image,
+        #wrapper > section.spotlight:nth-of-type(even) .image {
+            display: block !important;
+            flex: none !important;
+            width: 100% !important;
+            min-width: 0 !important;
+            max-width: 100% !important;
+            margin: 0 !important;
+        }
+
+        #wrapper > section.spotlight .image img {
             width: 100% !important;
             max-width: 100% !important;
+            max-height: none !important;
+            height: auto !important;
+            display: block !important;
+        }
+
+        #wrapper > section.spotlight .content,
+        #wrapper > section.spotlight:nth-of-type(even) .content {
+            display: block !important;
+            flex: none !important;
+            width: 100% !important;
+            min-width: 0 !important;
+            max-width: 100% !important;
+            margin: 0 !important;
             text-align: left !important;
+        }
+
+        #wrapper > section.spotlight .content p {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        #wrapper > section.spotlight .content .special {
+            white-space: nowrap !important;
         }
     }
 </style>
@@ -240,7 +269,7 @@
         </div>
     </div>
 </section>
-</section>
+
 
 				<!-- Footer -->
 	
