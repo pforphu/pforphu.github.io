@@ -2,9 +2,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Preston Le | Data Analyst Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Preston Le | Data Analyst Portfolio</title>
+
+    <!-- SEO & AI READABILITY -->
+    <meta name="description" content="Duc Tuong Phu Le (Preston), Microsoft-certified Data Analyst based in Adelaide, specialising in SQL, Power BI, Python, Advanced DAX, Databricks and Microsoft Fabric.">
+    <meta name="author" content="Duc Tuong Phu Le">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://pforphu.github.io/">
+
+    <!-- STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": "https://pforphu.github.io/",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Duc Tuong Phu Le",
+            "alternateName": "Preston Le",
+            "jobTitle": "Data Analyst",
+            "url": "https://pforphu.github.io/",
+            "description": "Microsoft-certified Data Analyst with professional experience in business operations, sales analytics and executive reporting.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Adelaide",
+                "addressRegion": "South Australia",
+                "addressCountry": "AU"
+            },
+            "sameAs": [
+                "https://github.com/pforphu",
+                "https://www.linkedin.com/in/duc-tuong-phu-le/"
+            ],
+            "knowsAbout": [
+                "SQL", "Python", "R", "Power BI",
+                "Advanced DAX", "Power Query M", "Microsoft Excel",
+                "Databricks", "Microsoft Fabric", "ETL",
+                "Star Schema", "Data Modelling", "Business Intelligence",
+                "Statistical Analysis", "Exploratory Data Analysis", "KPI Reporting"
+            ],
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Microsoft Certified: Power BI Data Analyst Associate",
+                "credentialCategory": "Professional Certification",
+                "url": "https://learn.microsoft.com/en-us/users/ductuongphule-0056/credentials/certification/data-analyst-associate?tab=credentials-tab",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Microsoft"
+                }
+            }
+        }
+    }
+    </script>
+
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
@@ -58,7 +110,7 @@
             letter-spacing: .025em !important;
         }
 
-        /* PROFILE INFORMATION */
+        /* PROFILE */
         .bio-block { margin-top: 1.4rem; text-transform: none !important; }
         .bio-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
         .bio-item { display: flex; flex-direction: column; gap: .5rem; }
@@ -74,12 +126,8 @@
             line-height: 1.7;
         }
 
-        .bio-label .icon {
-            color: var(--accent);
-            margin-right: .7rem;
-        }
+        .bio-label .icon { color: var(--accent); margin-right: .7rem; }
 
-        /* TECHNOLOGY BADGES */
         .skill-badges {
             display: flex;
             flex-wrap: wrap;
@@ -119,7 +167,7 @@
             transform: translateY(-2px);
         }
 
-        /* ALTERNATING PROJECT LAYOUT */
+        /* PROJECT LAYOUT */
         #wrapper > section.spotlight .inner {
             display: flex;
             align-items: center;
@@ -127,13 +175,8 @@
             gap: clamp(2rem, 5vw, 4rem);
         }
 
-        #wrapper > section.spotlight:nth-of-type(odd) .inner {
-            flex-direction: row !important;
-        }
-
-        #wrapper > section.spotlight:nth-of-type(even) .inner {
-            flex-direction: row-reverse !important;
-        }
+        #wrapper > section.spotlight:nth-of-type(odd) .inner { flex-direction: row !important; }
+        #wrapper > section.spotlight:nth-of-type(even) .inner { flex-direction: row-reverse !important; }
 
         /* PROJECT IMAGES */
         #wrapper > section.spotlight .image {
@@ -157,7 +200,7 @@
             transition: transform .55s ease, filter .4s ease;
         }
 
-        /* SQL IMAGE: COMPACT SIZE */
+        /* SQL IMAGE */
         #wrapper > #three .image.sql-image {
             flex: 0 0 var(--sql-width) !important;
             width: var(--sql-width) !important;
@@ -170,7 +213,7 @@
             border-radius: 14px !important;
         }
 
-        /* PYTHON IMAGE: ORIGINAL ASPECT RATIO */
+        /* PYTHON IMAGE */
         #wrapper > #four .image {
             flex: 0 0 var(--python-width) !important;
             width: var(--python-width) !important;
@@ -247,16 +290,10 @@
             margin-bottom: .9rem;
         }
 
-        .project-tools {
-            color: #d6e5ee;
-            font-size: .8rem;
-            line-height: 1.7;
-            margin: .85rem 0 1.3rem;
-        }
-
+        .project-tools { color: #d6e5ee; font-size: .8rem; line-height: 1.7; margin: .85rem 0 1.3rem; }
         .project-tools strong { color: var(--accent); font-weight: 600; }
 
-        /* EXPLORE PROJECT BUTTON */
+        /* EXPLORE PROJECT */
         #wrapper .spotlight a.special {
             display: inline-flex;
             align-items: center;
@@ -281,10 +318,7 @@
                 box-shadow: 0 16px 32px rgba(0,0,0,.22), 0 24px 55px rgba(0,0,0,.25);
             }
 
-            #wrapper .spotlight .image:hover img {
-                transform: scale(1.02);
-                filter: brightness(1.04);
-            }
+            #wrapper .spotlight .image:hover img { transform: scale(1.02); filter: brightness(1.04); }
 
             #wrapper .spotlight h2.major .project-title:hover {
                 color: var(--accent) !important;
@@ -301,10 +335,7 @@
             }
         }
 
-        a:focus-visible {
-            outline: 2px solid var(--accent);
-            outline-offset: 5px;
-        }
+        a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 
         /* FOOTER */
         #footer .contact li { line-height: 1.8; }
@@ -362,18 +393,14 @@
 
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
-            *, *::before, *::after {
-                transition: none !important;
-                animation: none !important;
-            }
+            *, *::before, *::after { transition: none !important; animation: none !important; }
+
             #wrapper .spotlight .image:hover,
             #wrapper .spotlight .image:hover img,
             #wrapper .spotlight .project-title:hover,
             #wrapper .spotlight a.special:hover,
             .social-links a:hover,
-            .skill-badges img:hover {
-                transform: none !important;
-            }
+            .skill-badges img:hover { transform: none !important; }
         }
     </style>
 </head>
@@ -383,7 +410,7 @@
 
     <!-- HEADER -->
     <header id="header" class="alt">
-        <h1><a href="index.html"></a></h1>
+        <h1><a href="index.html">Preston Le</a></h1>
         <nav><a href="#menu">Menu</a></nav>
     </header>
 
@@ -406,7 +433,6 @@
     <!-- BANNER -->
     <section id="banner">
         <div class="inner">
-
             <h2>Duc Tuong Phu Le <span class="nickname">(Preston)</span></h2>
             <h1>Data Analytics Portfolio</h1>
 
@@ -415,22 +441,22 @@
 
                     <!-- EDUCATION -->
                     <span class="bio-label">
-                        <span class="icon solid fa-graduation-cap"></span>
+                        <span class="icon solid fa-graduation-cap" aria-hidden="true"></span>
                         Master of Business Analytics and Intelligence
                     </span>
 
                     <!-- TECHNICAL SKILLS -->
                     <div class="bio-item">
                         <span class="bio-label">
-                            <span class="icon solid fa-chart-bar"></span>
+                            <span class="icon solid fa-chart-bar" aria-hidden="true"></span>
                             Data Analyst skilled in SQL, Power BI (DAX &amp; Power Query M), Python, R, and Excel
                         </span>
 
                         <div class="skill-badges">
                             <img src="https://img.shields.io/badge/SQL--4479A1?style=flat&amp;logo=mysql&amp;logoColor=white" alt="SQL">
                             <img src="https://img.shields.io/badge/Power%20BI--F2C811?style=flat&amp;logo=powerbi&amp;logoColor=white" alt="Power BI">
-                            <img src="https://img.shields.io/badge/Python--3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python">
                             <img src="https://img.shields.io/badge/Excel--217346?style=flat&amp;logo=microsoft-excel&amp;logoColor=white" alt="Excel">
+                            <img src="https://img.shields.io/badge/Python--3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python">
                             <img src="https://img.shields.io/badge/R--276DC3?style=flat&amp;logo=r&amp;logoColor=white" alt="R">
                         </div>
                     </div>
@@ -438,7 +464,7 @@
                     <!-- DATA PLATFORMS -->
                     <div class="bio-item">
                         <span class="bio-label">
-                            <span class="icon solid fa-database"></span>
+                            <span class="icon solid fa-database" aria-hidden="true"></span>
                             Analytics &amp; Data Platforms: Databricks, Microsoft Fabric
                         </span>
 
@@ -450,12 +476,12 @@
 
                     <!-- CERTIFICATIONS -->
                     <span class="bio-label">
-                        <span class="icon solid fa-award"></span>
+                        <span class="icon solid fa-award" aria-hidden="true"></span>
                         Microsoft Certified: Power BI Data Analyst Associate (PL-300)
                     </span>
 
                     <span class="bio-label">
-                        <span class="icon solid fa-certificate"></span>
+                        <span class="icon solid fa-certificate" aria-hidden="true"></span>
                         Coding Mentor Certificate
                     </span>
 
@@ -463,29 +489,27 @@
 
                 <!-- SOCIAL LINKS -->
                 <div class="social-links">
-                    
-
-                    <a href="https://github.com/pforphu" target="_blank" rel="noopener noreferrer">
-                        <span class="icon brands fa-github"></span>
-                        Connect on GitHub ↗
-                    </a>
                     <a href="https://www.linkedin.com/in/duc-tuong-phu-le/" target="_blank" rel="noopener noreferrer">
-                        <span class="icon brands fa-linkedin"></span>
+                        <span class="icon brands fa-linkedin" aria-hidden="true"></span>
                         Connect on LinkedIn ↗
                     </a>
-                </div>
 
+                    <a href="https://github.com/pforphu" target="_blank" rel="noopener noreferrer">
+                        <span class="icon brands fa-github" aria-hidden="true"></span>
+                        Connect on GitHub ↗
+                    </a>
+
+                </div>
             </div>
         </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="wrapper">
+    <main id="wrapper">
 
         <!-- PROJECT 1: POWER BI -->
         <section id="one" class="wrapper spotlight style1">
             <div class="inner">
-
                 <a href="https://github.com/pforphu/Business-Analyst---Power-BI-" class="image" target="_blank" rel="noopener noreferrer">
                     <img src="images/Summary.png" alt="E-Commerce Business Performance Dashboard" loading="lazy">
                 </a>
@@ -502,20 +526,16 @@
 
                     <p>An interactive Power BI dashboard exploring business health, marketing campaign effectiveness, inventory and product portfolio performance. Designed to make key business trends easier to understand and compare.</p>
 
-                    <div class="project-tools">
-                        <strong>Focus:</strong> Power BI · DAX · Modelling · Business Performance
-                    </div>
+                    <div class="project-tools"><strong>Focus:</strong> Power BI · DAX · Business Performance</div>
 
                     <a href="https://github.com/pforphu/Business-Analyst---Power-BI-" class="special" target="_blank" rel="noopener noreferrer">Explore Project</a>
                 </div>
-
             </div>
         </section>
 
         <!-- PROJECT 2: HR ANALYTICS -->
         <section id="two" class="wrapper alt spotlight style2">
             <div class="inner">
-
                 <a href="https://github.com/pforphu/HR-Analysis---Power-BI-" class="image" target="_blank" rel="noopener noreferrer">
                     <img src="images/Overview.png" alt="HR Workforce Analytics Dashboard" loading="lazy">
                 </a>
@@ -532,20 +552,16 @@
 
                     <p>An interactive HR dashboard exploring employee attrition, workforce demographics, recruitment metrics and performance trends to support informed workforce decisions.</p>
 
-                    <div class="project-tools">
-                        <strong>Focus:</strong> Power BI · DAX · Modelling 
-                    </div>
+                    <div class="project-tools"><strong>Focus:</strong> Power BI · Workforce Analytics · Retention</div>
 
                     <a href="https://github.com/pforphu/HR-Analysis---Power-BI-" class="special" target="_blank" rel="noopener noreferrer">Explore Project</a>
                 </div>
-
             </div>
         </section>
 
         <!-- PROJECT 3: SQL -->
         <section id="three" class="wrapper spotlight style3">
             <div class="inner">
-
                 <a href="https://github.com/pforphu/E-Commerce-SQL-Project" class="image sql-image" target="_blank" rel="noopener noreferrer">
                     <img src="images/SQL.png" alt="SQL E-Commerce Funnel Analysis" loading="lazy">
                 </a>
@@ -562,20 +578,16 @@
 
                     <p>A SQL-based analysis of customer journeys, conversion funnels and revenue performance. Identifies where customers drop off and highlights opportunities to improve conversion efficiency.</p>
 
-                    <div class="project-tools">
-                        <strong>Focus:</strong> SQL · Funnel Analysis · Conversion Metrics
-                    </div>
+                    <div class="project-tools"><strong>Focus:</strong> SQL · Funnel Analysis · Conversion Metrics</div>
 
                     <a href="https://github.com/pforphu/E-Commerce-SQL-Project" class="special" target="_blank" rel="noopener noreferrer">Explore Project</a>
                 </div>
-
             </div>
         </section>
 
         <!-- PROJECT 4: PYTHON -->
         <section id="four" class="wrapper alt spotlight style1">
             <div class="inner">
-
                 <a href="https://github.com/pforphu/SA-Incidents-Analysis-2022-2026---Python" class="image" target="_blank" rel="noopener noreferrer">
                     <img src="images/Python.png" alt="South Australia Incident Analysis" loading="lazy">
                 </a>
@@ -592,17 +604,14 @@
 
                     <p>A Python-based investigation of incident trends and recurring patterns, using exploratory data analysis to uncover insights that can support operational decisions.</p>
 
-                    <div class="project-tools">
-                        <strong>Focus:</strong> Python · Exploratory Data Analysis · Trend Analysis
-                    </div>
+                    <div class="project-tools"><strong>Focus:</strong> Python · Exploratory Data Analysis · Trend Analysis</div>
 
                     <a href="https://github.com/pforphu/SA-Incidents-Analysis-2022-2026---Python" class="special" target="_blank" rel="noopener noreferrer">Explore Project</a>
                 </div>
-
             </div>
         </section>
 
-    </section>
+    </main>
 
     <!-- FOOTER -->
     <section id="footer">
