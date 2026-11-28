@@ -1,0 +1,88 @@
+
+# Duc Tuong Phu Le (Preston) - Data Analyst Portfolio
+
+> Microsoft-certified Data Analyst based in Adelaide,
+> South Australia, with professional experience in
+> business operations, sales analytics and reporting.
+
+## Professional Profile
+
+- Full name: Duc Tuong Phu Le (Preston)
+- Professional title: Data Analyst
+- Location: Adelaide, South Australia
+- Education: Master of Business Analytics and Intelligence
+- University: University of the Sunshine Coast
+- Expected graduation: June 2027
+- Certification: Microsoft Power BI Data Analyst Associate (PL-300)
+- Additional qualification: Coding Mentor Certificate
+
+## Technical Skills
+
+- Programming: SQL, Python, R
+- Business Intelligence: Power BI, Advanced DAX, Power Query M
+- Spreadsheet Analytics: Advanced Excel
+- Data Platforms: Databricks, Microsoft Fabric
+- Databases: MySQL, SQL Server
+- Data Engineering: ETL, Data Pipelines, Data Integration
+- Data Modelling: Star Schema, Fact and Dimension Tables
+- Analytics: EDA, Statistical Analysis, Feature Engineering
+- SQL: CTEs, Window Functions, Joins, Conditional Aggregations
+- DAX: Filter Context, Iterator Functions, Time Intelligence
+
+## Professional Experience
+
+CEO Assistant | LE Immigration | 2022-2025
+
+- Sales data collection, cleaning and consolidation
+- Revenue, conversion rate and KPI monitoring
+- Excel dashboard development
+- Executive reporting and business performance analysis
+
+## Featured Projects
+
+### E-Commerce Business Analysis
+
+- Tools: Databricks, Power BI, Advanced DAX
+- ETL and star schema modelling
+- Marketing campaign and business performance analysis
+- Analysed over 18,000 transactions
+- Identified $3.1M in online revenue
+- Identified 7.4x marketing return on spend
+- GitHub: https://github.com/pforphu/Business-Analyst---Power-BI-
+
+### HR Workforce Analytics
+
+- Tools: Microsoft Fabric, Power BI, DAX
+- Workforce demographics and employee retention
+- Relational data modelling and dynamic KPIs
+- Identified 80.77% voluntary departures
+- Identified 38.04% Procurement turnover
+- GitHub: https://github.com/pforphu/HR-Analysis---Power-BI-
+
+### E-Commerce Funnel Analysis
+
+- Tools: MySQL, SQL Server
+- SQL CTEs, window functions and joins
+- Customer journey and conversion funnel analysis
+- Identified 34% email conversion
+- Identified 68.9% view-to-cart drop-off
+- GitHub: https://github.com/pforphu/E-Commerce-SQL-Project
+
+### South Australia Incident Analysis
+
+- Tools: Python, Pandas, NumPy, Seaborn
+- Data cleaning and feature engineering
+- Exploratory and temporal data analysis
+- Analysed five years of government crash data
+- Identified 79.9% metropolitan crash concentration
+- GitHub: https://github.com/pforphu/SA-Incidents-Analysis-2022-2026---Python
+
+## Public Links
+
+- Portfolio: https://pforphu.github.io/
+- GitHub: https://github.com/pforphu
+- LinkedIn: https://www.linkedin.com/in/duc-tuong-phu-le/
+
+## Microsoft Credential
+
+https://learn.microsoft.com/en-us/users/ductuongphule-0056/credentials/certification/data-analyst-associate?tab=credentials-tab

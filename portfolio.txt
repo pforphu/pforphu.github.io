@@ -1,0 +1,312 @@
+
+DUC TUONG PHU LE (PRESTON)
+DATA ANALYST PORTFOLIO
+==================================================
+
+PROFESSIONAL PROFILE
+
+Microsoft Certified Power BI Data Analyst based in
+Adelaide, South Australia, with professional experience
+in business operations, sales analytics, KPI monitoring
+and executive reporting.
+
+Currently pursuing a Master of Business Analytics and
+Intelligence, with technical expertise in SQL, Power BI,
+Python, R, Excel, Databricks and Microsoft Fabric.
+
+Interested in transforming complex datasets into
+actionable business insights and supporting data-driven
+decision-making.
+
+==================================================
+
+EDUCATION
+
+Master of Business Analytics and Intelligence
+University of the Sunshine Coast (UniSC)
+Expected graduation: June 2027
+
+==================================================
+
+PROFESSIONAL CERTIFICATIONS
+
+Microsoft Certified: Power BI Data Analyst Associate
+Exam: PL-300
+
+Credential verification:
+https://learn.microsoft.com/en-us/users/ductuongphule-0056/credentials/certification/data-analyst-associate?tab=credentials-tab
+
+Coding Mentor Certificate
+
+==================================================
+
+TECHNICAL SKILLS
+
+Business Intelligence:
+- Power BI
+- DAX
+- Power Query M
+- Interactive Dashboard Development
+- KPI Reporting
+- Data Visualisation
+
+Programming and Data Analysis:
+- SQL
+- Python
+- R
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Cleaning and Transformation
+
+Data Platforms:
+- Databricks
+- Microsoft Fabric
+
+Data Modelling:
+- Star Schema
+- Fact and Dimension Tables
+- Relational Data Modelling
+- ETL Processes
+- Data Integration
+
+Business Analytics:
+- Microsoft Excel
+- Sales Performance Analysis
+- Revenue Analysis
+- Marketing Performance Analysis
+- Customer Funnel Analysis
+- Workforce Analytics
+- Business Performance Reporting
+
+==================================================
+
+PROFESSIONAL EXPERIENCE
+
+CEO Assistant
+LE Immigration
+2022 - 2025
+
+Areas of professional experience:
+
+- Business operations and administrative support.
+- Sales data analysis and performance reporting.
+- Business KPI monitoring.
+- Data collection, cleaning and consolidation.
+- Excel-based reporting and analysis.
+- Executive reporting and decision-making support.
+
+==================================================
+
+PROJECT 01
+E-COMMERCE BUSINESS ANALYSIS
+
+Category:
+Business Intelligence and Commercial Analytics
+
+Technologies:
+Power BI, Databricks, DAX, Power Query
+
+Project Overview:
+
+An interactive business intelligence dashboard
+designed to evaluate e-commerce business performance,
+marketing effectiveness, inventory and product
+portfolio performance.
+
+Technical Approach:
+
+- Data cleaning and transformation.
+- ETL processes using Databricks.
+- Star schema data modelling.
+- DAX measures and business KPIs.
+- Interactive Power BI dashboard development.
+- Marketing and revenue performance analysis.
+
+Key Findings:
+
+- Analysed more than 18,000 transactions.
+- Identified $3.1 million in online revenue.
+- Identified a 7.4x marketing return.
+
+Business Applications:
+
+- Business performance monitoring.
+- Marketing effectiveness evaluation.
+- Product portfolio analysis.
+- Revenue and inventory analysis.
+
+Project Repository:
+https://github.com/pforphu/Business-Analyst---Power-BI-
+
+==================================================
+
+PROJECT 02
+HR WORKFORCE ANALYTICS
+
+Category:
+People Analytics and Business Intelligence
+
+Technologies:
+Microsoft Fabric, Power BI, DAX
+
+Project Overview:
+
+An interactive HR analytics dashboard examining
+employee attrition, workforce demographics,
+recruitment metrics and performance trends.
+
+Technical Approach:
+
+- Workforce data preparation.
+- Relational data modelling.
+- Employee retention analysis.
+- Dynamic KPI development.
+- Interactive Power BI reporting.
+- Department-level workforce analysis.
+
+Key Findings:
+
+- Voluntary departures accounted for 80.77%
+  of employee departures.
+- Procurement recorded a turnover rate of 38.04%.
+
+Business Applications:
+
+- Employee retention strategies.
+- Workforce planning.
+- Department-level performance monitoring.
+- Identification of workforce-related risks.
+
+Project Repository:
+https://github.com/pforphu/HR-Analysis---Power-BI-
+
+==================================================
+
+PROJECT 03
+E-COMMERCE FUNNEL ANALYSIS
+
+Category:
+Customer Analytics and Conversion Analysis
+
+Technologies:
+SQL
+
+Project Overview:
+
+A SQL-based analysis of customer journeys,
+conversion funnels and revenue performance.
+
+Technical Approach:
+
+- SQL queries and data aggregation.
+- Customer journey analysis.
+- Conversion funnel modelling.
+- Customer behaviour analysis.
+- Identification of conversion drop-off points.
+- Revenue performance evaluation.
+
+Key Findings:
+
+- Identified a 34% email conversion rate.
+- Identified a 68.9% view-to-cart drop-off rate.
+
+Business Applications:
+
+- Customer conversion optimisation.
+- Marketing channel evaluation.
+- Customer journey improvement.
+- Identification of potential revenue opportunities.
+
+Project Repository:
+https://github.com/pforphu/E-Commerce-SQL-Project
+
+==================================================
+
+PROJECT 04
+SOUTH AUSTRALIA INCIDENT ANALYSIS
+
+Category:
+Exploratory Data Analysis and Public Data Analytics
+
+Technologies:
+Python
+
+Project Overview:
+
+An exploratory analysis of South Australian road
+incident data to identify recurring patterns,
+geographical concentrations and temporal trends.
+
+Technical Approach:
+
+- Data cleaning and preprocessing.
+- Exploratory data analysis.
+- Feature engineering.
+- Geographical pattern analysis.
+- Temporal trend analysis.
+- Statistical data visualisation.
+
+Key Findings:
+
+- Analysed five years of road crash data.
+- Identified that 79.9% of recorded crashes were
+  concentrated in metropolitan areas.
+
+Business Applications:
+
+- Road safety analysis.
+- Operational planning.
+- Identification of incident patterns.
+- Evidence-based decision-making.
+
+Project Repository:
+https://github.com/pforphu/SA-Incidents-Analysis-2022-2026---Python
+
+==================================================
+
+PROFESSIONAL INTERESTS
+
+- Data Analytics
+- Business Intelligence
+- Business Analytics
+- Commercial Analytics
+- Reporting and Insights
+- People Analytics
+- Customer Analytics
+- Operational Analytics
+- Data Visualisation
+- Data Modelling
+
+==================================================
+
+PUBLIC PROFESSIONAL LINKS
+
+Portfolio:
+https://pforphu.github.io/
+
+GitHub:
+https://github.com/pforphu
+
+LinkedIn:
+https://www.linkedin.com/in/duc-tuong-phu-le/
+
+Microsoft Certification:
+https://learn.microsoft.com/en-us/users/ductuongphule-0056/credentials/certification/data-analyst-associate?tab=credentials-tab
+
+Location:
+Adelaide, South Australia, Australia
+
+==================================================
+
+ABOUT THIS DOCUMENT
+
+This document provides a plain-text representation
+of my professional portfolio for accessibility,
+information retrieval and professional review.
+
+Project repositories contain additional technical
+documentation, analysis and supporting materials.
+
+==================================================
+END OF PORTFOLIO
+==================================================
